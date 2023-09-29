@@ -1,0 +1,94 @@
+/* Add this CSS code to your styles.css file or within a <style> tag in the HTML */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#averageResult {
+    padding: 10px 0; /* 10px top and bottom padding, 0px left and right padding */
+}
+
+
+h1 {
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* Style for the scale container */
+.scale-container {
+    flex: 1; /* Take up available space */
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.scale {
+    text-align: left;
+}
+
+.scale-item {
+    margin-bottom: 20px;
+}
+
+/* Style for the calculators container */
+.calculators-container {
+    flex: 1; /* Take up available space */
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #f9f9f9;
+    text-align: center; /* Center the text within the calculators container */
+}
+
+.calculators {
+    text-align: left;
+}
+
+.calculator {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 10px auto; /* Center the calculators horizontally within the container */
+    max-width: 400px;
+    background-color: #f9f9f9;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 1;
+}
+
+input {
+    flex: 2;
+    padding: 5px;
+}
+
+.output-container {
+    margin-top: 10px;
+}
+
+#output {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Add this CSS to your styles.css file */
+
+.calculator h2 {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0; /* Remove margin to reduce empty space */
+    margin-bottom: 5px; /* Add margin-bottom for spacing below the title */
+}
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Critical Value Artifact Set Assessor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Critical Value Artifact Set Assessor</h1>
+    
+    <div class="custom-string-container">
+        <label for="customString">Character:</label>
+        <input type="text" id="customString">
+    </div>
+
+
+    <!-- Calculator 1 -->
+    <div class="calculator">
+        <h2>Flower</h2> <!-- Calculator Title -->
+        <div class="input-container">
+            <label for="criticalRate1">Critical Rate:</label>
+            <input type="number" id="criticalRate1">
+        </div>
+        <div class="input-container">
+            <label for="criticalDamage1">Critical Damage:</label>
+            <input type="number" id="criticalDamage1">
+        </div>
+        <div class="output-container">
+            <label>Result:</label>
+            <div id="output1"></div>
+        </div>
+    </div>
+
+    <!-- Calculator 2 -->
+    <div class="calculator">
+        <h2>Feather</h2> <!-- Calculator Title -->
+        <div class="input-container">
+            <label for="criticalRate2">Critical Rate:</label>
+            <input type="number" id="criticalRate2">
+        </div>
+        <div class="input-container">
+            <label for="criticalDamage2">Critical Damage:</label>
+            <input type="number" id="criticalDamage2">
+        </div>
+        <div class="output-container">
+            <label>Result:</label>
+            <div id="output2"></div>
+        </div>
+    </div>
+
+    <!-- Calculator 3 -->
+    <div class="calculator">
+        <h2>Sands</h2> <!-- Calculator Title -->
+        <div class="input-container">
+            <label for="criticalRate3">Critical Rate:</label>
+            <input type="number" id="criticalRate3">
+        </div>
+        <div class="input-container">
+            <label for="criticalDamage3">Critical Damage:</label>
+            <input type="number" id="criticalDamage3">
+        </div>
+        <div class="output-container">
+            <label>Result:</label>
+            <div id="output3"></div>
+        </div>
+    </div>
+
+    <!-- Calculator 4 -->
+    <div class="calculator">
+        <h2>Goblet</h2> <!-- Calculator Title -->
+        <div class="input-container">
+            <label for="criticalRate4">Critical Rate:</label>
+            <input type="number" id="criticalRate4">
+        </div>
+        <div class="input-container">
+            <label for="criticalDamage4">Critical Damage:</label>
+            <input type="number" id="criticalDamage4">
+        </div>
+        <div class="output-container">
+            <label>Result:</label>
+            <div id="output4"></div>
+        </div>
+    </div>
+
+    <!-- Calculator 5 -->
+    <div class="calculator">
+        <h2>Circlet</h2> <!-- Calculator Title -->
+        <div class="input-container">
+            <label for="criticalRate5">Critical Rate:</label>
+            <input type="number" id="criticalRate5">
+        </div>
+        <div class="input-container">
+            <label for="criticalDamage5">Critical Damage:</label>
+            <input type="number" id="criticalDamage5">
+        </div>
+        <div class="output-container">
+            <label>Result:</label>
+            <div id="output5"></div>
+        </div>
+    </div>
+
+
+    <!-- Add two buttons for Calculate and Log separately -->
+    <div class="average-container">
+        <button id="calculateAverageButton">Calculate Average</button>
+        <button id="logButton">Log Result</button>
+        <div id="averageResult"></div>
+    </div>
+
+    <div class="log-container">
+        <div class="log">
+            <h2>Calculation Log</h2>
+            <ul id="log-list">
+                <!-- Calculation log will be added here -->
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
